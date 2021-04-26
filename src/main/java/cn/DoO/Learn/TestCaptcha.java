@@ -7,7 +7,6 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 import java.lang.reflect.Method;
 
-import org.junit.Test;
 
 import cn.hutool.captcha.CaptchaUtil;
 import cn.hutool.captcha.CircleCaptcha;
@@ -17,8 +16,14 @@ import cn.hutool.core.convert.Convert;
 import cn.hutool.core.io.IoUtil;
 import cn.hutool.core.util.ReflectUtil;
 import cn.hutool.core.util.StrUtil;
+import org.junit.jupiter.api.Test;
 
 public class TestCaptcha {
+
+	@Test
+	public void testGithubCommit(){
+		System.out.println("测试");
+	}
 
 	@Test
 	@Comment("创建 线段干扰的验证码")
